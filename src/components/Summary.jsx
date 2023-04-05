@@ -6,7 +6,7 @@ import visualIcon from '../assets/images/icon-visual.svg';
 import verbalIcon from '../assets/images/icon-verbal.svg';
 const Summary = () => {
   return (
-    <section className='flex flex-col text-left w-full p-8 gap-5'>
+    <section className='flex flex-col text-left w-full p-8 gap-5 lg:flex-2'>
       <p className='font-extrabold'>Summary</p>
       <SummaryItem
         icon={reactionIcon}

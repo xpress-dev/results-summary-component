@@ -2,7 +2,7 @@ import React from 'react';
 
 const Results = () => {
   return (
-    <section className='w-full text-center flex jusitfy-center items-center flex-col bg-gradient-to-b from-[#7857ff] to-[#2e2be9] p-8 font-extrabold gap-5 rounded-br-3xl rounded-bl-3xl'>
+    <section className='w-full text-center flex jusitfy-center items-center flex-col bg-gradient-to-b from-[#7857ff] to-[#2e2be9] p-8 font-extrabold gap-5 rounded-br-2xl rounded-bl-3xl lg:h-full lg:rounded-3xl lg:w-[28rem] lg:justify-between'>
       <p className='text-[#c8c7ff]'>Your Result</p>
       <div className='w-32 h-32 rounded-full flex justify-center items-center flex-col bg-gradient-to-b from-[#4e21ca] to-[#2421ca00]'>
         <span className='text-5xl text-white'>76</span>
