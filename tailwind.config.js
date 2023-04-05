@@ -2,8 +2,11 @@
 export default {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: "'Hanken Grotesk', sans-serif",
+      },
+    },
   },
   plugins: [],
-}
-
+};
